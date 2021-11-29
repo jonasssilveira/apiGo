@@ -1,4 +1,6 @@
 dev:
 	go run httpd/main.go
-test:
+test_coverage:
 	go test -cover ./...
+test:
+	go test ./...
